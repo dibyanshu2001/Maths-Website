@@ -1,0 +1,150 @@
+body{
+	font: arial,Helvetica,sans-serif;
+}
+#container{
+	width: 1050px;
+	border:1px solid grey;
+	height: 100px;
+	 margin: 0 auto;
+	   border: none;
+}
+#header{
+  height: 100px;
+  padding:1px 0;
+
+}
+#brand{
+	float: left;
+}
+
+h1 a{
+	font-size: 50px;
+	font-weight: 100;
+	color: #861BBF;
+	text-decoration: none;
+	 text-transform: uppercase;
+
+
+}
+#search-b{
+	float: right;
+	background:linear-gradient(#E4F2B9,#B7E953);
+	width:400px;
+	height:50px;
+	padding:20px 20px 0 20px;
+	margin-top:17px;
+
+}
+.text{
+	float: left;
+	width:200px;
+	  padding: 5px;
+    font-size: 15px;
+    color: #E36A07;
+	background: white url(image/search.png) right center no-repeat;
+	border: 1px solid #c8d03e ;
+}
+.submit{
+	float: right;
+	padding:5px;
+	font-weight: bold;
+	color: white;
+	background:#A751D6;
+	font-size: 15px;
+}
+.clear{
+	clear:both
+}
+ul{
+	list-style: none;
+}
+#menu{
+    height: 70px;
+	background: linear-gradient(#F8F594,#D5D533);
+	padding: 8px 0;
+}
+#menu ul li{
+	float: left;
+	padding: 0 30px;
+	height: 31px;;
+	border-right:1px solid #5d12e7 ;
+
+}
+#menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #5d12e7;
+	line-height: 35px;
+	transition: font-size .5s ease;
+}
+#menu ul li:last-child{
+	border-right: none;
+}
+#menu ul li a:hover,#menu ul li a.active{
+	font-size: 20px;
+	font-weight: bold;
+	color: #B314DB;
+}
+
+.box1{
+    margin: 16px 0;
+    background: linear-gradient(#E5F2BB,#B7E952);
+    padding: 30px;}
+.box1 h1{
+    font-size: 49px;
+	color: #316901;
+	font-weight: normal;
+}
+.box1 p{
+    font-size: 26px;	
+	color: #628f19;
+	text-align: justify;
+}
+.sidebar{
+	height: 500px;
+	width: 405px;
+	border: 1px solid #baf46f;
+	border-radius: 20px;
+	padding: 20px 48px;}
+.sidebar h3{
+	color: #b314db;
+	font-size: 30px;
+}
+.sidebar ul{
+	padding-top: 8px;
+}
+#leftsidebar ul li{
+	padding: 4px 0 4px 10px;
+	list-style-image: url(image/arrow.png);
+}
+#rightsidebar ul li{
+	padding: 1px 0 1px 10px;
+	list-style-image: url(image/tick.png);
+}
+.sidebar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color:#5d12e7;
+}
+.sidebar ul li a:hover,.sidebar ul li a.active{
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	color: #B314DB;
+	transition: font-size .5s ease;
+}	
+
+#leftsidebar{
+	float: left;
+}
+#rightsidebar{
+	float: right; ;
+}
+.footer{
+	height: 60px;
+	background: linear-gradient(#F6F390,#D5D533);
+	padding: 10px 30px;
+	margin-top: 15px;
+
+}
